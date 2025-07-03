@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+/* Dark Mode CSS */
+
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Headings */
+  h1, h2, h3, h4, h5, h6 {
+    color: #ffffff;
+  }
+  
+  /* Links */
+  a {
+    color: #bb86fc;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+  }
+  
+  /* Cards or Containers */
+  .card {
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Inputs */
+  input, textarea {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    border: 1px solid #555;
+    padding: 8px 12px;
+    border-radius: 6px;
+  }
+  
+  input::placeholder, textarea::placeholder {
+    color: #aaaaaa70;
+  }
+  
+  /* Paragraphs */
+p {
+    color: #cccccc;
+    line-height: 1.6;
+    font-size: 1rem; /* 16px */
+    margin-bottom: 1rem;
+  }
+  
